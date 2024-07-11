@@ -93,6 +93,11 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} TomoriBOT.`,
     },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
