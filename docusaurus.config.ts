@@ -10,7 +10,7 @@ const config: Config = {
   url: 'https://tomoribot.gdr.dev.br',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs',
+  baseUrl: '/documentation',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,6 +29,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          versions: {
+            current: {
+              label: 'Canary'
+            },
+          }
         },
         blog: {
           showReadingTime: true
@@ -54,6 +59,12 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Central de Ajuda',
+        },
         {to: '/blog', label: 'Blog', position: 'left'}
       ],
     },
