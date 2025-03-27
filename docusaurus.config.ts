@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'O melhor bot de WhatsApp do Brasil!',
 
   // Set the production url of your site here
-  url: 'https://tomoribot.gdr.dev.br',
+  url: 'https://tomoribot.com.br',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/documentation',
@@ -47,7 +47,7 @@ const config: Config = {
 
   themeConfig: {
     announcementBar: {
-      content: '<div style="color: white; font-weight: 600; display: flex; flex-direction: row; justify-content: center; width: 100%; align-items: center;">Assine o <a href="https://tomoribot.gdr.dev.br" style="margin-left: 5px; margin-right: 5px;">TomoriBOT</a> e tenha acesso a todas as funcionalidades!</div>',
+      content: '<div style="color: white; font-weight: 600; display: flex; flex-direction: row; justify-content: center; width: 100%; align-items: center;">Assine o <a href="https://tomoribot.com.br" style="margin-left: 5px; margin-right: 5px;">TomoriBOT</a> e tenha acesso a todas as funcionalidades!</div>',
       isCloseable: false,
       id: 'announcement-bar-1',
     },
@@ -55,7 +55,7 @@ const config: Config = {
       title: 'TomoriBOT',
       logo: {
         alt: 'Tomori',
-        href: 'https://tomoribot.gdr.dev.br',
+        href: 'https://tomoribot.com.br',
         src: 'img/logo.svg',
       },
       items: [
