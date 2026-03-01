@@ -1,0 +1,8 @@
+{
+  "label": "Dashboard",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Gerencie sua conta, pagamentos, indicacoes e funcionalidades avancadas do TomoriBOT."
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "label": "Como usar?",
-  "position": 2,
+  "label": "Painel de Controle",
+  "position": 3,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
-    "description": "Como usar?"
+    "description": "Guias para usar o painel web e gerenciar seus grupos."
   }
 }
