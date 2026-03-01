@@ -86,6 +86,28 @@ Nao pode banir o dono do grupo, o bot ou outros admins. Suporta motivo opcional.
 
 ---
 
+## /promote
+
+Promove um membro a administrador do grupo.
+
+| Propriedade | Valor |
+|-------------|-------|
+| **Aliases** | `demote`, `promover`, `rebaixar` |
+| **Permissao** | Admin |
+| **Bot Admin** | Sim |
+
+**Uso:**
+```
+/promote @usuario
+/promote (respondendo a mensagem do usuario)
+/demote @usuario
+/demote (respondendo a mensagem do usuario)
+```
+
+Use `/promote` para promover um membro a admin e `/demote` (ou `/rebaixar`) para rebaixar um admin. Nao pode alterar o cargo do dono do grupo ou do bot. Valida se o membro ja e admin (ao promover) ou se nao e admin (ao rebaixar).
+
+---
+
 ## /antighost
 
 Lista membros inativos do grupo.
@@ -197,3 +219,45 @@ Deleta mensagens do grupo.
 ```
 
 Deleta mensagens recentes do usuario mencionado.
+
+---
+
+## /block
+
+Adiciona um usuario a blacklist do grupo, impedindo sua entrada.
+
+| Propriedade | Valor |
+|-------------|-------|
+| **Aliases** | `blacklist`, `bloquear`, `adicionarblacklist` |
+| **Permissao** | Admin |
+| **Bot Admin** | Sim |
+
+**Uso:**
+```
+/block @usuario
+/block +5581830640xx
+/block (respondendo a mensagem do usuario)
+```
+
+Adiciona o usuario a lista negra do grupo. Usuarios na blacklist sao impedidos de entrar. Nao pode adicionar admins.
+
+---
+
+## /rblock
+
+Remove um usuario da blacklist do grupo.
+
+| Propriedade | Valor |
+|-------------|-------|
+| **Aliases** | `desbloquear`, `unblock`, `removerblacklist` |
+| **Permissao** | Admin |
+| **Bot Admin** | Sim |
+
+**Uso:**
+```
+/rblock @usuario
+/rblock +5581830640xx
+/rblock (respondendo a mensagem do usuario)
+```
+
+Remove o usuario da lista negra, permitindo que ele entre novamente no grupo.
