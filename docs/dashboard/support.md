@@ -16,7 +16,7 @@ Precisa de ajuda? Entre em contato com nossa equipe de suporte.
 
 ### Email
 
-- **Email:** contato@viniciusgdr.com
+- **Email:** viniciusgdr@outlook.com
 - **Disponibilidade:** 24 horas
 - Clique no botao para abrir seu cliente de email
 
